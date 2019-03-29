@@ -1,0 +1,32 @@
+div.prt-stage-toggle {
+    margin-bottom: 4px !important;
+}
+
+div.txt-room-id {
+    user-select: text !important;
+}
+
+div.cnt-coopraid div.prt-wanted-room.high_lobby div.txt-room-comment, 
+div.cnt-coopraid div.prt-wanted-room.normal_lobby div.txt-room-comment {
+    transform-origin: 0% 0%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+div.cnt-coopraid div.prt-wanted-room {
+    position: relative;
+}
+
+div.cnt-coopraid div.prt-wanted-room div.ico-approval-check {
+    z-index: 2;
+}
+
+div.cnt-coopraid div.prt-wanted-room > img {
+    position: absolute;
+    box-sizing: border-box;
+    top: 0px;
+    right: 22px;
+    max-height: 46px;
+}

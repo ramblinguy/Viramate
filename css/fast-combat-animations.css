@@ -1,0 +1,5 @@
+.prt-command-chara.anim-command-chara-show [class^="lis-character"],
+.anim-slide-command-right,
+.anim-slide-command-left {
+    animation-duration: 0.05s !important;
+}
